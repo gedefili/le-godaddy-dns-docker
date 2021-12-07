@@ -4,11 +4,8 @@ services:
   le-godaddy-dns:
     image: "uschti/le-godaddy-dns"
     environment:
-      GD_KEY: someMagicKey
-      GD_SECRET: theCorrespondingSecret
-      SLACK_URL: https://hooks.slack.com/services/XXXXXXXXXXX
-      SLACK_DOMAIN_TITLE: yourdomain.com
-      SLACK_CHANNEL: "#certificates"
+      GD_KEY: 3mM44UbhETdZ2T_Kkj695LLWFe82o8rQ8ez3K
+      GD_SECRET: Y7vVBjFACPmu1vdZQUBXw6
     volumes:
       - /data/certs:/data/certs
       - /data/keys:/data/keys
