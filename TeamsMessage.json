@@ -1,0 +1,16 @@
+{
+    "contentType": "application/vnd.microsoft.teams.card.o365connector",
+    "content": {
+      "@type": "MessageCard",
+      "@context": "http://schema.org/extensions",
+      "summary": "Certificate Renewal",
+      "title": "Certificate Renewal",
+      "sections": [
+          {
+              "activityTitle": "Certbot has renewed Certificates",
+              "activitySubtitle": "Certificate Renewal",
+              "activityText": "##OUTCOME##"
+          }
+      ]
+    }
+  }
