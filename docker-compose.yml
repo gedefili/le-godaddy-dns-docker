@@ -4,12 +4,12 @@ services:
   le-godaddy-dns:
     image: "uschti/le-godaddy-dns"
     environment:
-      GD_KEY: 3mM44UbhETdZ2T_Kkj695LLWFe82o8rQ8ez3K
-      GD_SECRET: Y7vVBjFACPmu1vdZQUBXw6
+      GD_KEY: <redacted>
+      GD_SECRET: <redacted>
     volumes:
       - /data/certs:/data/certs
       - /data/keys:/data/keys
-      - renew_certificates.conf:/data/letsencrypt/renew_certificates.conf
+      - ./conf/renew_certificates.conf:/data/letsencrypt/renew_certificates.conf
       - cert-data:/data/letsencrypt/dehydrated/certs
 
 volumes:
